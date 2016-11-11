@@ -1,0 +1,32 @@
+#[K]
+#is_K = 1
+K = 14
+
+#[gamma]
+#is_gamma = 1
+gamma = 10.0
+
+
+#[D]
+#is_D = 1
+D = 5
+
+
+#[alpha]
+#is_alpha = 1
+alpha = 2.0
+
+
+#[W]
+#is_W = 1
+W = 30
+
+
+#[lambda]
+#is_lambda = 1
+lambda = 0.5
+
+
+#[Nj]
+#is_Nj = 1
+Nj = 100
