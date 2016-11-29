@@ -1,0 +1,28 @@
+##################################################
+#### Numero di Cluster a priori nei documenti ####
+##################################################
+#Alpha
+a<-2.0
+#Numero di dati in ogni documento
+#Nel caso non sia noto fare una media
+n<-100
+
+#Media a priori del numero di cluster in ogni documento
+Kn <- a *sum(1/( a+seq(0,n-1)))
+Kn
+
+#########################################################
+#### Numero di Clustes a priori condivisi nel corpus ####
+#########################################################
+#Gamma
+g<-2.5
+#Alpha
+a<-2.0
+#Numero di documenti
+J<-5
+#Numero di dati in ogni documento
+#Nel caso non sia noto fare una media
+N<-100
+#Media a priori del numero di cluster nel corpus
+Kn<-g*log(a/g) + g*log(J) + g*log(log(N/a))
+Kn

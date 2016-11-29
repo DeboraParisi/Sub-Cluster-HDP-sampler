@@ -1,0 +1,25 @@
+#[K]
+K = 10
+
+#[gamma]
+gamma = 4.0
+
+
+#[D]
+D = 40
+
+
+#[alpha]
+alpha = 0.25
+
+
+#[W]
+W = 100
+
+
+#[lambda]
+lambda = 0.5
+
+
+#[Nj]
+Nj = 50
